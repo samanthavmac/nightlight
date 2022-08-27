@@ -1,22 +1,22 @@
-const routeStops [
+const routeStops = [
     {
         name: "Queens",
         reports: [
             {
                 type: "Harassment",
-                title: "Man was taking photos on train"
-                description: "There was a man taking photos of me."
+                title: "Man was taking photos on train",
+                description: "There was a man taking photos of me.",
                 date: 
             }
         ]
     }
-    {``
+    {
         name: "Dundas",
         reports: [
             {
                 type: "Harassment",
-                title: "Man was taking photos on train"
-                description: "There was a man taking photos of me."
+                title: "Man was taking photos on train",
+                description: "There was a man taking photos of me.",
                 date: 
             }
         ]
@@ -26,8 +26,8 @@ const routeStops [
         reports: [
             {
                 type: "Harassment",
-                title: "Man was taking photos on train"
-                description: "There was a man taking photos of me."
+                title: "Man was taking photos on train",
+                description: "There was a man taking photos of me.",
                 date: 
             }
         ]
@@ -37,8 +37,8 @@ const routeStops [
         reports: [
             {
                 type: "Harassment",
-                title: "Man was taking photos on train"
-                description: "There was a man taking photos of me."
+                title: "Man was taking photos on train",
+                description: "There was a man taking photos of me.",
                 date: 
             }
         ]
@@ -48,8 +48,8 @@ const routeStops [
         reports: [
             {
                 type: "Harassment",
-                title: "Man was taking photos on train"
-                description: "There was a man taking photos of me."
+                title: "Man was taking photos on train",
+                description: "There was a man taking photos of me.",
                 date: 
             }
         ]
