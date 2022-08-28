@@ -6,21 +6,71 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="/dist/output.css" rel="stylesheet">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-    <title>News</title>
+    <title>nightlight news</title>
 </head>
 <body>
-    <div class="report-box">
-        <form>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" />
-            
-            <button id="submit-report", onClick=, type="submit">Submit</button>
-        </form>
-    </div>
-
-    <script></script>
-
-    <!-- Link database of route stops-->
-    <script src="./scripts/database.js"></script>
+    <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
+        <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+          <header class="flex justify-between items-center py-4 md:py-8 mb-8 md:mb-12 xl:mb-16">
+            <!-- logo - start -->
+            <a href="report.html" class="inline-flex items-center text-black-800 text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
+              <i class="fi fi-rr-bulb"></i>
+              nightlight
+            </a>
+            <!-- logo - end -->
+      
+            <!-- nav - start -->
+            <nav class="hidden lg:flex gap-12">
+              <a href="index.html" class="text-gray-500 text-lg font-semibold">Home</a>
+              <a href="about.html" class="text-gray-600 hover:text-red-500 active:text-red-700 text-lg font-semibold transition duration-100">About Us</a>
+              <a href="news.html" class="text-red-600 hover:text-red-500 active:text-red-700 text-lg font-semibold transition duration-100">News</a>
+            </nav>
+            <!-- nav - end -->
+      
+            <!-- buttons - start -->
+            <a href="report.html" class="hidden lg:inline-block bg-red-200 hover:bg-gray-red focus-visible:ring ring-red-300 text-black-500 active:text-black-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Report It</a>
+      
+            <button type="button" class="inline-flex items-center lg:hidden bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-red-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold rounded-lg gap-2 px-2.5 py-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+              </svg>
+      
+              Menu
+            </button>
+            <!-- buttons - end -->
+          </header>
+          <section>
+            <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+                <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
+                    <div class="p-6">
+                        <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://images.thestar.com/SVYpABVD5oysVlB25-hSUPoYUeA=/968x645/smart/filters:cb(1650550271596):format(webp)/https://www.thestar.com/content/dam/thestar/news/gta/2022/04/20/ttc-attacks-spark-calls-for-increased-transit-security-patrols/ttc.jpg" alt="blog">
+                        <h2 class="mb-8 text-xs font-semibold tracking-widest text-blue-600 uppercase">Queen Street West & Tecumseth Avenue</h2>
+                        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Woman Stabbed While Sleeping on TTC Bus.</h1>
+                        <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">A 32-year-old woman received several stitches and is recovering at home after being stabbed by a stranger in what police call an “unprovoked attack” on a bus in downtown Toronto Saturday morning.</p>
+                        <div class="mt-4">
+                            <a href="https://globalnews.ca/news/8506784/woman-stabbed-while-sleeping-on-toronto-transit-bus/" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://images.thestar.com/KFiJA2NcoaTlduKc1TPevFqBwjg=/1086x724/smart/filters:cb(1588974211623):format(webp)/https://www.thestar.com/content/dam/thestar/news/gta/2020/05/08/how-the-ttc-is-preparing-for-the-return-of-the-toronto-rush-hour/empty_subway.jpg" alt="blog">
+                        <h2 class="mb-8 text-xs font-semibold tracking-widest text-blue-600 uppercase">Spadina Station</h2>
+                        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Bus Driver Stabbing</h1>
+                        <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Toronto police say a TTC bus driver was stabbed with a broken toothbrush early Sunday morning, and that the attacker may be the same man behind a stabbing at Spadina station later that day.</p>
+                        <div class="mt-4">
+                            <a href="https://www.cbc.ca/news/canada/toronto/ttc-bus-driver-stabbing-1.4671907" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://pbs.twimg.com/media/FVfW7yLUcAEv8eO.jpg:large" alt="blog">
+                        <h2 class="mb-8 text-xs font-semibold tracking-widest text-blue-600 uppercase">Kipling Station</h2>
+                        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Woman Hospitalized After Sudden Attack</h1>
+                        <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Police say that the victim, who is believed to be in her 60s, was walking through the transit station when she was approached by the suspect. It is alleged that the suspect then punched the woman in the face unprovoked, knocking her unconscious.</p>
+                        <div class="mt-4">
+                            <a href="https://toronto.ctvnews.ca/woman-taken-to-hospital-after-another-apparent-random-attack-at-toronto-transit-station-1.5978195" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 </body>
 </html>
